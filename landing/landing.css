@@ -13,7 +13,7 @@
 
 
 body {
-    background-image: url(..//landing/bg-mobile.svg);
+    background-image: url(C:\Users\mreid\OneDrive\Desktop\landingpage\landing\bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: 400px;
     background-color: var(--violet);
@@ -118,7 +118,7 @@ body {
     /* body */
 
     body {
-        background-image: url(..//landing/bg-desktop.svg);
+        background-image: url(C:\Users\mreid\OneDrive\Desktop\landingpage\landing\bg-desktop.svg);
         background-attachment: fixed;
         background-size: auto 100%;
         background-position: center;
