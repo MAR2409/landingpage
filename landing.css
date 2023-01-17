@@ -1,0 +1,232 @@
+:root {
+    --violet:hsl(257, 40%, 49%);
+    --soft-magenta:hsl(300, 69%, 71%);
+    --poppins:'Poppins', sans-serif;
+    --open:'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(C:\Users\mreid\OneDrive\Desktop\landingpage\landing\bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-color: var(--violet);
+}
+/* Nav */
+
+.landing-logo img {
+    width: 50%;
+}
+
+.landing-logo {
+    padding: 1.75rem 2.5rem;
+}
+
+/* Section */
+
+.landing-img img {
+    width: 90%;
+    padding-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.landing-text {
+    font-family: var(--open);
+    color: white;
+    padding: 1rem 1.5em;
+}
+
+.landing-text h1 {
+    text-align: center;
+    padding: 0 1.5rem;
+    margin-top: 2.5rem;
+    font-size: 1.55rem;
+}
+
+.landing-text p {
+    text-align: center;
+    margin-top: 1.25rem;
+    padding: 0 1.1rem;
+    font-weight:normal;
+    font-size: 1.1rem;
+    font-family: var(--open);
+}
+
+/* button */
+
+.landing-button {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-button button {
+    border-style: none;
+    width: 60%;
+    padding: .80rem 0rem;
+    border-radius: 20px;
+    margin-top: 1.3rem;
+    color: var(--violet);
+    font-size: .85rem;
+}
+
+.landing-button a {
+    text-decoration: none;
+    font-weight: var(--open);
+}
+
+.landing-button button:hover {
+    cursor: pointer;
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
+/* Footer */
+
+.landing-sites img {
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin:0rem .85rem ;
+}
+
+.landing-sites {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.landing-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.landing-sites img:hover {
+    filter: var(--soft-magenta);
+}
+
+/* media */
+
+@media (min-width:768px) and (max-width:1024px) {
+    /* body */
+
+    body {
+        background-image: url(C:\Users\mreid\OneDrive\Desktop\landingpage\landing\bg-desktop.svg);
+        background-attachment: fixed;
+        background-size: auto 100%;
+        background-position: center;
+    }
+    
+    /* nav media */
+
+    .landing-logo img {
+        width: 25%;
+    }
+
+    /* section */
+    .landing-flex {
+        display: flex;
+    }
+
+    .landing-img  {
+        width: 100%;
+    }
+
+    .landing-text {
+        width: 70%;
+    }
+
+    .landing-text h1 {
+        text-align: left;
+        padding: 0;
+    }
+
+    .landing-text p {
+        text-align: left;
+        padding: 0;
+        font-size: .85rem;
+    }
+
+    /* button */
+
+    .landing-button {
+        justify-content: left;
+    }
+
+    /* footer */
+    .landing-sites {
+        justify-content: right;
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+    }
+}
+
+@media (min-width:1025px) {
+    body {
+        background-image: url(..//landing/bg-desktop.svg);
+        background-attachment: fixed;
+        background-size: auto 100%;
+        background-position: center;
+    }
+    
+    /* nav media */
+
+    .landing-logo img {
+        width: 10%;
+    }
+
+    /* section */
+    .landing-flex {
+        display: flex;
+    }
+
+    .landing-img  {
+        width: 70%;
+    }
+
+    .landing-text {
+        width: 40%;
+        margin-right: 4rem;
+    }
+
+    .landing-text h1 {
+        text-align: left;
+        padding: 0;
+        font-size: 2.5rem;
+        margin-right: 2em;
+    }
+
+    .landing-text p {
+        text-align: left;
+        padding: 0;
+        font-size: 1.15rem;
+        margin-right: 2em;
+    }
+
+    /* button */
+
+    .landing-button {
+        justify-content: left;
+    }
+
+    .landing-button button {
+        width: 195px;
+        font-size: 1em;
+    }
+
+    /* footer */
+    .landing-sites {
+        justify-content: right;
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+    }
+}
